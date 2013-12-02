@@ -1,0 +1,352 @@
+SplineFontDB: 3.0
+FontName: NineSegment
+FullName: NineSegment
+FamilyName: NineSegment
+Weight: Medium
+Copyright: Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
+UComments: "2013-11-24: Created with FontForge (http://fontforge.org)" 
+Version: 002.001
+ItalicAngle: 0
+UnderlinePosition: -200
+UnderlineWidth: 100
+Ascent: 1638
+Descent: 410
+LayerCount: 2
+Layer: 0 0 "+gMyXYgAA"  1
+Layer: 1 0 "+Uk2XYgAA"  0
+XUID: [1021 687 1084785680 14928746]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1385260552
+ModificationTime: 1385994645
+PfmFamily: 17
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 180
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 180
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 64 16 10
+BeginPrivate: 0
+EndPrivate
+BeginChars: 65536 15
+
+StartChar: comma
+Encoding: 44 44 0
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+600 -16 m 1
+ 700 -16 l 1
+ 700 -116 l 1
+ 600 -116 l 1
+ 600 -16 l 1
+500 100 m 0
+ 500 155 545 200 600 200 c 0
+ 655 200 700 155 700 100 c 0
+ 700 45 655 0 600 0 c 0
+ 545 0 500 45 500 100 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: period
+Encoding: 46 46 1
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+500 100 m 0
+ 500 155 545 200 600 200 c 0
+ 655 200 700 155 700 100 c 0
+ 700 45 655 0 600 0 c 0
+ 545 0 500 45 500 100 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: colon
+Encoding: 58 58 2
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+500 430 m 0
+ 500 485 545 530 600 530 c 0
+ 655 530 700 485 700 430 c 0
+ 700 375 655 330 600 330 c 0
+ 545 330 500 375 500 430 c 0
+500 1100 m 0
+ 500 1155 545 1200 600 1200 c 0
+ 655 1200 700 1155 700 1100 c 0
+ 700 1045 655 1000 600 1000 c 0
+ 545 1000 500 1045 500 1100 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 3
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+600 314 m 1
+ 700 314 l 1
+ 700 214 l 1
+ 600 214 l 1
+ 600 314 l 1
+500 430 m 0
+ 500 485 545 530 600 530 c 0
+ 655 530 700 485 700 430 c 0
+ 700 375 655 330 600 330 c 0
+ 545 330 500 375 500 430 c 0
+500 1100 m 0
+ 500 1155 545 1200 600 1200 c 0
+ 655 1200 700 1155 700 1100 c 0
+ 700 1045 655 1000 600 1000 c 0
+ 545 1000 500 1045 500 1100 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: space
+Encoding: 32 32 4
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uniEFE0
+Encoding: 61408 61408 5
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+342 1387 m 1
+ 954 974 l 1
+ 873 855 l 1
+ 262 1267 l 1
+ 342 1387 l 1
+300 687 m 1
+ 912 274 l 1
+ 831 155 l 1
+ 220 567 l 1
+ 300 687 l 1
+960 788 m 1
+ 1003 1489 l 1
+ 1146 1480 l 1
+ 1104 779 l 1
+ 960 788 l 1
+916 56 m 1
+ 959 757 l 1
+ 1102 748 l 1
+ 1060 47 l 1
+ 916 56 l 1
+72 796 m 1
+ 115 1497 l 1
+ 258 1488 l 1
+ 216 787 l 1
+ 72 796 l 1
+28 64 m 1
+ 71 765 l 1
+ 214 756 l 1
+ 172 55 l 1
+ 28 64 l 1
+276 1544 m 1
+ 978 1544 l 1
+ 978 1400 l 1
+ 276 1400 l 1
+ 276 1544 l 1
+236 844 m 1
+ 938 844 l 1
+ 938 700 l 1
+ 236 700 l 1
+ 236 844 l 1
+196 144 m 1
+ 898 144 l 1
+ 898 0 l 1
+ 196 0 l 5
+ 196 144 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE1
+Encoding: 61409 61409 6
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+276 1544 m 1
+ 978 1544 l 1
+ 978 1400 l 1
+ 276 1400 l 1
+ 276 1544 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE2
+Encoding: 61410 61410 7
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+960 788 m 1
+ 1003 1489 l 1
+ 1146 1480 l 1
+ 1104 779 l 1
+ 960 788 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE3
+Encoding: 61411 61411 8
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+916 56 m 1
+ 959 757 l 1
+ 1102 748 l 1
+ 1060 47 l 1
+ 916 56 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE4
+Encoding: 61412 61412 9
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+196 144 m 1
+ 898 144 l 1
+ 898 0 l 1
+ 196 0 l 1
+ 196 144 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE5
+Encoding: 61413 61413 10
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+28 64 m 1
+ 71 765 l 1
+ 214 756 l 1
+ 172 55 l 1
+ 28 64 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE6
+Encoding: 61414 61414 11
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+72 796 m 1
+ 115 1497 l 1
+ 258 1488 l 1
+ 216 787 l 1
+ 72 796 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE7
+Encoding: 61415 61415 12
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+236 844 m 1
+ 938 844 l 1
+ 938 700 l 1
+ 236 700 l 1
+ 236 844 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE8
+Encoding: 61416 61416 13
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+342 1387 m 1
+ 954 974 l 1
+ 873 855 l 1
+ 262 1267 l 1
+ 342 1387 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFE9
+Encoding: 61417 61417 14
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+300 687 m 1
+ 912 274 l 1
+ 831 155 l 1
+ 220 567 l 1
+ 300 687 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

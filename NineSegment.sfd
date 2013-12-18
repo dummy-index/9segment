@@ -5,7 +5,7 @@ FamilyName: NineSegment
 Weight: Medium
 Copyright: Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
 UComments: "2013-11-24: Created with FontForge (http://fontforge.org)" 
-Version: 003.000
+Version: 004.000
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -20,25 +20,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1385260552
-ModificationTime: 1386489981
+ModificationTime: 1387291990
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
-LineGap: 180
+LineGap: 0
 VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 180
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 1638
+OS2WinAOffset: 0
+OS2WinDescent: 410
+OS2WinDOffset: 0
+HheadAscent: 1638
+HheadAOffset: 0
+HheadDescent: 410
+HheadDOffset: 0
 OS2Vendor: 'PfEd'
 OS2CodePages: 0000000b.d4010000
 MarkAttachClasses: 1
@@ -49,10 +49,9 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 16 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 258
+BeginChars: 65536 259
 
 StartChar: comma
 Encoding: 44 44 0
@@ -156,53 +155,109 @@ Width: 1229
 VWidth: 2000
 Flags: HW
 LayerCount: 2
+Back
+SplineSet
+785 131 m 5
+ 234.485351562 535.255859375 l 5
+ 312.022460938 640.844726562 l 5
+ 862.536132812 236.588867188 l 5
+ 785 131 l 5
+891 719 m 1
+ 930 1358 l 1
+ 1061 1350 l 1
+ 1022 711 l 1
+ 891 719 l 1
+851 61 m 1
+ 890 700 l 1
+ 1021 692 l 1
+ 982 53 l 1
+ 851 61 l 1
+193 640 m 1
+ 213 640 l 1
+ 213 620 l 1
+ 193 620 l 1
+ 193 640 l 1
+115 719 m 1
+ 154 1358 l 1
+ 285 1350 l 1
+ 246 711 l 1
+ 115 719 l 1
+75 61 m 1
+ 114 700 l 1
+ 245 692 l 1
+ 206 53 l 1
+ 75 61 l 1
+300 1411 m 1
+ 924 1411 l 1
+ 916 1280 l 1
+ 292 1280 l 1
+ 300 1411 l 1
+260 771 m 1
+ 884 771 l 1
+ 876 640 l 1
+ 252 640 l 1
+ 260 771 l 1
+220 131 m 1
+ 844 131 l 1
+ 836 0 l 1
+ 212 0 l 1
+ 220 131 l 1
+EndSplineSet
 Fore
 SplineSet
-342 1387 m 1
- 954 974 l 1
- 873 855 l 1
- 262 1267 l 1
- 342 1387 l 1
-300 687 m 1
- 912 274 l 1
- 831 155 l 1
- 220 567 l 1
- 300 687 l 1
-960 788 m 1
- 1003 1489 l 1
- 1146 1480 l 1
- 1104 779 l 1
- 960 788 l 1
-916 56 m 1
- 959 757 l 1
- 1102 748 l 1
- 1060 47 l 1
- 916 56 l 1
-72 796 m 1
- 115 1497 l 1
- 258 1488 l 1
- 216 787 l 1
- 72 796 l 1
-28 64 m 1
- 71 765 l 1
- 214 756 l 1
- 172 55 l 1
- 28 64 l 1
-276 1544 m 1
- 978 1544 l 1
- 978 1400 l 1
- 276 1400 l 1
- 276 1544 l 1
-236 844 m 1
- 938 844 l 1
- 938 700 l 1
- 236 700 l 1
- 236 844 l 1
-196 144 m 1
- 898 144 l 1
- 898 0 l 1
- 196 0 l 5
- 196 144 l 1
+808 782 m 1
+ 285 1167 l 1
+ 292 1280 l 1
+ 368 1269 l 1
+ 891 884 l 1
+ 884 771 l 1
+ 808 782 l 1
+768 142 m 1
+ 245 527 l 1
+ 252 640 l 1
+ 328 629 l 1
+ 851 244 l 1
+ 844 131 l 1
+ 768 142 l 1
+891 719 m 1
+ 930 1358 l 1
+ 1061 1350 l 1
+ 1022 711 l 1
+ 891 719 l 1
+851 61 m 1
+ 890 700 l 1
+ 1021 692 l 1
+ 982 53 l 1
+ 851 61 l 1
+115 719 m 1
+ 154 1358 l 1
+ 285 1350 l 1
+ 246 711 l 1
+ 115 719 l 1
+75 61 m 1
+ 114 700 l 1
+ 245 692 l 1
+ 206 53 l 1
+ 75 61 l 1
+300 1411 m 1
+ 924 1411 l 1
+ 916 1280 l 1
+ 370 1280 l 1
+ 293 1291 l 1
+ 300 1411 l 1
+260 771 m 1
+ 806 771 l 1
+ 883 760 l 1
+ 876 640 l 1
+ 330 640 l 1
+ 253 651 l 1
+ 260 771 l 1
+220 131 m 1
+ 766 131 l 1
+ 843 120 l 1
+ 836 0 l 1
+ 212 0 l 1
+ 220 131 l 1
 EndSplineSet
 EndChar
 
@@ -214,11 +269,12 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-276 1544 m 1
- 978 1544 l 1
- 978 1400 l 1
- 276 1400 l 1
- 276 1544 l 1
+300 1411 m 1
+ 924 1411 l 1
+ 916 1280 l 1
+ 370 1280 l 1
+ 293 1291 l 1
+ 300 1411 l 1
 EndSplineSet
 EndChar
 
@@ -230,11 +286,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-960 788 m 1
- 1003 1489 l 1
- 1146 1480 l 1
- 1104 779 l 1
- 960 788 l 1
+891 719 m 1
+ 930 1358 l 1
+ 1061 1350 l 1
+ 1022 711 l 1
+ 891 719 l 1
 EndSplineSet
 EndChar
 
@@ -246,11 +302,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-916 56 m 1
- 959 757 l 1
- 1102 748 l 1
- 1060 47 l 1
- 916 56 l 1
+851 61 m 1
+ 890 700 l 1
+ 1021 692 l 1
+ 982 53 l 1
+ 851 61 l 1
 EndSplineSet
 EndChar
 
@@ -262,11 +318,12 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-196 144 m 1
- 898 144 l 1
- 898 0 l 1
- 196 0 l 1
- 196 144 l 1
+220 131 m 1
+ 766 131 l 1
+ 843 120 l 1
+ 836 0 l 1
+ 212 0 l 1
+ 220 131 l 1
 EndSplineSet
 EndChar
 
@@ -278,11 +335,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-28 64 m 1
- 71 765 l 1
- 214 756 l 1
- 172 55 l 1
- 28 64 l 1
+75 61 m 1
+ 114 700 l 1
+ 245 692 l 1
+ 206 53 l 1
+ 75 61 l 1
 EndSplineSet
 EndChar
 
@@ -294,11 +351,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-72 796 m 1
- 115 1497 l 1
- 258 1488 l 1
- 216 787 l 1
- 72 796 l 1
+115 719 m 1
+ 154 1358 l 1
+ 285 1350 l 1
+ 246 711 l 1
+ 115 719 l 1
 EndSplineSet
 EndChar
 
@@ -310,11 +367,13 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-236 844 m 1
- 938 844 l 1
- 938 700 l 1
- 236 700 l 1
- 236 844 l 1
+260 771 m 1
+ 806 771 l 1
+ 883 760 l 1
+ 876 640 l 1
+ 330 640 l 1
+ 253 651 l 1
+ 260 771 l 1
 EndSplineSet
 EndChar
 
@@ -326,11 +385,13 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-342 1387 m 1
- 954 974 l 1
- 873 855 l 1
- 262 1267 l 1
- 342 1387 l 1
+808 782 m 1
+ 285 1167 l 1
+ 292 1280 l 1
+ 368 1269 l 1
+ 891 884 l 1
+ 884 771 l 1
+ 808 782 l 1
 EndSplineSet
 EndChar
 
@@ -342,11 +403,13 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-300 687 m 1
- 912 274 l 1
- 831 155 l 1
- 220 567 l 1
- 300 687 l 1
+768 142 m 1
+ 245 527 l 1
+ 252 640 l 1
+ 328 629 l 1
+ 851 244 l 1
+ 844 131 l 1
+ 768 142 l 1
 EndSplineSet
 EndChar
 
@@ -2663,8 +2726,22 @@ Refer: 8 61411 N 1 0 0 1 0 0 2
 Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
+StartChar: uni0292
+Encoding: 658 658 200
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 14 61417 N 1 0 0 1 0 0 2
+Refer: 12 61415 N 1 0 0 1 0 0 2
+Refer: 9 61412 N 1 0 0 1 0 0 2
+Refer: 7 61410 N 1 0 0 1 0 0 2
+Refer: 6 61409 N 1 0 0 1 0 0 2
+EndChar
+
 StartChar: minute
-Encoding: 8242 8242 200
+Encoding: 8242 8242 201
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2674,7 +2751,7 @@ Refer: 11 61414 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: second
-Encoding: 8243 8243 201
+Encoding: 8243 8243 202
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2685,7 +2762,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni203E
-Encoding: 8254 8254 202
+Encoding: 8254 8254 203
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2695,7 +2772,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arrowleft
-Encoding: 8592 8592 203
+Encoding: 8592 8592 204
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2707,7 +2784,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arrowup
-Encoding: 8593 8593 204
+Encoding: 8593 8593 205
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2719,7 +2796,7 @@ Refer: 10 61413 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arrowright
-Encoding: 8594 8594 205
+Encoding: 8594 8594 206
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2731,7 +2808,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arrowdown
-Encoding: 8595 8595 206
+Encoding: 8595 8595 207
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2743,7 +2820,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: universal
-Encoding: 8704 8704 207
+Encoding: 8704 8704 208
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2757,7 +2834,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: partialdiff
-Encoding: 8706 8706 208
+Encoding: 8706 8706 209
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2772,7 +2849,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: existential
-Encoding: 8707 8707 209
+Encoding: 8707 8707 210
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2786,7 +2863,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Delta
-Encoding: 8710 8710 210
+Encoding: 8710 8710 211
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2798,7 +2875,7 @@ Refer: 9 61412 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: gradient
-Encoding: 8711 8711 211
+Encoding: 8711 8711 212
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2810,7 +2887,7 @@ Refer: 8 61411 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni220E
-Encoding: 8718 8718 212
+Encoding: 8718 8718 213
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2828,7 +2905,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: product
-Encoding: 8719 8719 213
+Encoding: 8719 8719 214
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2838,7 +2915,7 @@ Refer: 121 928 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2210
-Encoding: 8720 8720 214
+Encoding: 8720 8720 215
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2852,7 +2929,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: summation
-Encoding: 8721 8721 215
+Encoding: 8721 8721 216
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2862,7 +2939,7 @@ Refer: 123 931 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 216
+Encoding: 8722 8722 217
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2872,7 +2949,7 @@ Refer: 26 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2213
-Encoding: 8723 8723 217
+Encoding: 8723 8723 218
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2885,7 +2962,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2215
-Encoding: 8725 8725 218
+Encoding: 8725 8725 219
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2895,7 +2972,7 @@ Refer: 27 47 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2216
-Encoding: 8726 8726 219
+Encoding: 8726 8726 220
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2905,7 +2982,7 @@ Refer: 70 92 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: radical
-Encoding: 8730 8730 220
+Encoding: 8730 8730 221
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2918,7 +2995,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: proportional
-Encoding: 8733 8733 221
+Encoding: 8733 8733 222
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2932,7 +3009,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: infinity
-Encoding: 8734 8734 222
+Encoding: 8734 8734 223
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2947,7 +3024,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: orthogonal
-Encoding: 8735 8735 223
+Encoding: 8735 8735 224
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2958,7 +3035,7 @@ Refer: 11 61414 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: angle
-Encoding: 8736 8736 224
+Encoding: 8736 8736 225
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2969,7 +3046,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2223
-Encoding: 8739 8739 225
+Encoding: 8739 8739 226
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2979,7 +3056,7 @@ Refer: 102 124 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2225
-Encoding: 8741 8741 226
+Encoding: 8741 8741 227
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -2992,7 +3069,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2226
-Encoding: 8742 8742 227
+Encoding: 8742 8742 228
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3006,7 +3083,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: logicaland
-Encoding: 8743 8743 228
+Encoding: 8743 8743 229
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3017,7 +3094,7 @@ Refer: 11 61414 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: logicalor
-Encoding: 8744 8744 229
+Encoding: 8744 8744 230
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3028,7 +3105,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: intersection
-Encoding: 8745 8745 230
+Encoding: 8745 8745 231
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3040,7 +3117,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: union
-Encoding: 8746 8746 231
+Encoding: 8746 8746 232
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3052,7 +3129,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: integral
-Encoding: 8747 8747 232
+Encoding: 8747 8747 233
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3062,7 +3139,7 @@ Refer: 199 643 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: therefore
-Encoding: 8756 8756 233
+Encoding: 8756 8756 234
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3074,7 +3151,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2235
-Encoding: 8757 8757 234
+Encoding: 8757 8757 235
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3086,7 +3163,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: similar
-Encoding: 8764 8764 235
+Encoding: 8764 8764 236
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3096,7 +3173,7 @@ Refer: 104 126 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2243
-Encoding: 8771 8771 236
+Encoding: 8771 8771 237
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3109,7 +3186,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: congruent
-Encoding: 8773 8773 237
+Encoding: 8773 8773 238
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3123,7 +3200,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: notequal
-Encoding: 8800 8800 238
+Encoding: 8800 8800 239
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3136,7 +3213,7 @@ Refer: 9 61412 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: equivalence
-Encoding: 8801 8801 239
+Encoding: 8801 8801 240
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3148,7 +3225,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: lessequal
-Encoding: 8804 8804 240
+Encoding: 8804 8804 241
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3160,7 +3237,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: greaterequal
-Encoding: 8805 8805 241
+Encoding: 8805 8805 242
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3172,27 +3249,27 @@ Refer: 9 61412 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2266
-Encoding: 8806 8806 242
+Encoding: 8806 8806 243
 Width: 1229
 VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 240 8804 N 1 0 0 1 0 0 2
+Refer: 241 8804 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2267
-Encoding: 8807 8807 243
+Encoding: 8807 8807 244
 Width: 1229
 VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 241 8805 N 1 0 0 1 0 0 2
+Refer: 242 8805 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2272
-Encoding: 8818 8818 244
+Encoding: 8818 8818 245
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3206,7 +3283,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni2273
-Encoding: 8819 8819 245
+Encoding: 8819 8819 246
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3220,7 +3297,7 @@ Refer: 8 61411 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: propersubset
-Encoding: 8834 8834 246
+Encoding: 8834 8834 247
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3232,7 +3309,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: propersuperset
-Encoding: 8835 8835 247
+Encoding: 8835 8835 248
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3244,7 +3321,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: reflexsubset
-Encoding: 8838 8838 248
+Encoding: 8838 8838 249
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3257,7 +3334,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: reflexsuperset
-Encoding: 8839 8839 249
+Encoding: 8839 8839 250
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3270,7 +3347,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni22A2
-Encoding: 8866 8866 250
+Encoding: 8866 8866 251
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3282,7 +3359,7 @@ Refer: 10 61413 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni22A3
-Encoding: 8867 8867 251
+Encoding: 8867 8867 252
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3294,7 +3371,7 @@ Refer: 7 61410 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni22A4
-Encoding: 8868 8868 252
+Encoding: 8868 8868 253
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3305,7 +3382,7 @@ Refer: 10 61413 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: perpendicular
-Encoding: 8869 8869 253
+Encoding: 8869 8869 254
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3316,7 +3393,7 @@ Refer: 11 61414 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni22A6
-Encoding: 8870 8870 254
+Encoding: 8870 8870 255
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3328,7 +3405,7 @@ Refer: 10 61413 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: filledbox
-Encoding: 9632 9632 255
+Encoding: 9632 9632 256
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3346,7 +3423,7 @@ Refer: 6 61409 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni230A
-Encoding: 8970 8970 256
+Encoding: 8970 8970 257
 Width: 1229
 VWidth: 2000
 Flags: HW
@@ -3357,7 +3434,7 @@ Refer: 11 61414 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni230B
-Encoding: 8971 8971 257
+Encoding: 8971 8971 258
 Width: 1229
 VWidth: 2000
 Flags: HW

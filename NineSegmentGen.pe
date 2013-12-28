@@ -16,6 +16,9 @@ ee = [ 0xefe1, 0xefe2, 0xefe3, 0xefe4, 0xefe5, 0xefe6, 0xefe7, 0xefe8, 0xefe9 ]
 #	reserved,0,  0, 0, 0, 1, 1, 0, 0, 0, 0,# 7-segment "("
 #	reserved,0,  1, 1, 1, 1, 0, 0, 0, 1, 0,# alternative "g"
 #	reserved,0,  1, 1, 1, 0, 0, 0, 0, 1, 0,# alternative "q"
+#	reserved,0,  0, 0, 0, 1, 1, 1, 1, 1, 0,# alternative "e"
+#	reserved,0,  1, 1, 1, 0, 0, 0, 1, 0, 1,# alternative SMALL SCHWA
+
 
 #	        ref, a, b, c, d, e, f, g, h, i
 tt = [\
@@ -83,7 +86,7 @@ tt = [\
 	0x0062,0,  0, 0, 1, 1, 1, 1, 1, 0, 0,\
 	0x0063,0,  0, 0, 0, 1, 1, 0, 1, 0, 0,\
 	0x0064,0,  0, 1, 1, 1, 1, 0, 1, 0, 0,\
-	0x0065,0,  0, 0, 0, 1, 1, 1, 1, 1, 0,\
+	0x0065,0,  0, 0, 0, 0, 0, 1, 1, 1, 1,\
 	0x0066,0,  1, 0, 0, 0, 1, 1, 0, 1, 0,\
 	0x0067,0,  0, 0, 1, 1, 0, 1, 1, 1, 0,\
 	0x0068,0,  0, 0, 1, 0, 1, 1, 1, 0, 0,\
@@ -188,8 +191,9 @@ tt = [\
 	0x043a,0x03ba,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0440,0x0070,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0442,0,  0, 0, 0, 0, 1, 0, 0, 1, 0,\
-	0x04d9,0,  1, 1, 1, 0, 0, 0, 1, 0, 1,\
+	0x04d9,0,  0, 0, 1, 0, 0, 0, 1, 1, 1,\
 	\
+	0x00a0,0,  0, 0, 0, 0, 0, 0, 0, 0, 0,\
 	0x00a1,0,  1, 0, 1, 0, 0, 0, 0, 0, 0,\
 	0x00a5,0,  0, 1, 1, 1, 0, 0, 1, 1, 0,\
 	0x00a7,0,  1, 0, 1, 1, 0, 1, 0, 1, 1,\
@@ -201,18 +205,28 @@ tt = [\
 	0x00b5,0x03bc,  0,0,0,0,0,0, 0, 0, 0,\
 	0x00bf,0,  1, 0, 0, 1, 1, 0, 1, 0, 0,\
 	0x00d7,0,  0, 1, 0, 0, 0, 0, 1, 1, 0,\
+	0x00d8,0,  1, 1, 1, 0, 0, 1, 0, 1, 1,\
+	0x00df,0,  0, 0, 0, 1, 0, 1, 1, 1, 1,\
+	0x00f8,0,  0, 0, 1, 1, 1, 0, 1, 0, 1,\
+	0x00fe,0,  0, 0, 1, 0, 1, 1, 1, 0, 1,\
 	\
+	0x0131,0,  0, 0, 1, 0, 0, 0, 0, 0, 0,\
 	0x014b,0,  0, 0, 1, 1, 0, 1, 0, 1, 0,\
 	0x0186,0,  1, 1, 1, 1, 0, 0, 0, 0, 0,\
 	0x018f,0,  1, 1, 1, 1, 1, 0, 1, 0, 0,\
+	0x0237,0,  0, 0, 1, 1, 0, 0, 0, 0, 0,\
+	0x0250,0,  1, 1, 0, 0, 0, 1, 1, 0, 1,\
 	0x0254,0,  0, 0, 1, 1, 0, 0, 1, 0, 0,\
-	0x0259,0,  1, 1, 1, 0, 0, 0, 1, 0, 1,\
+	0x0259,0x04d9,  0,0,0,0,0,0, 0, 0, 0,\
+	0x025b,0x03b5,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0283,0,  1, 0, 1, 1, 0, 1, 0, 0, 0,\
 	0x0292,0,  1, 1, 0, 1, 0, 0, 1, 0, 1,\
 	\
 	0x2032,0,  0, 0, 0, 0, 0, 1, 0, 0, 0,\
 	0x2033,0,  0, 1, 0, 0, 0, 1, 0, 0, 0,\
 	0x203e,0,  1, 0, 0, 0, 0, 0, 0, 0, 0,\
+	0x2044,0x002f,  0,0,0,0,0,0, 0, 0, 0,\
+	0x2126,0x03a9,  0,0,0,0,0,0, 0, 0, 0,\
 	0x2190,0,  1, 0, 0, 0, 0, 0, 1, 0, 1,\
 	0x2191,0,  0, 0, 0, 0, 1, 1, 0, 1, 0,\
 	0x2192,0,  1, 0, 0, 1, 0, 0, 0, 0, 1,\
@@ -222,6 +236,10 @@ tt = [\
 	0x2203,0,  1, 1, 1, 1, 0, 0, 1, 0, 0,\
 	0x2206,0,  0, 0, 0, 1, 1, 0, 0, 0, 1,\
 	0x2207,0,  0, 0, 1, 0, 0, 0, 1, 0, 1,\
+	0x2208,0,  1, 0, 0, 0, 0, 1, 1, 0, 1,\
+	0x220a,0,  1, 0, 0, 0, 0, 1, 1, 0, 1,\
+	0x220b,0,  0, 0, 1, 1, 0, 0, 1, 1, 0,\
+	0x220d,0,  0, 0, 1, 1, 0, 0, 1, 1, 0,\
 	0x220e,0,  1, 1, 1, 1, 1, 1, 1, 1, 1,\
 	0x220f,0x03a0,  0,0,0,0,0,0, 0, 0, 0,\
 	0x2210,0,  0, 1, 1, 1, 1, 1, 0, 0, 0,\
@@ -230,6 +248,7 @@ tt = [\
 	0x2213,0,  1, 1, 1, 0, 0, 0, 1, 0, 0,\
 	0x2215,0x002f,  0,0,0,0,0,0, 0, 0, 0,\
 	0x2216,0x005c,  0,0,0,0,0,0, 0, 0, 0,\
+	0x2217,0x002a,  0,0,0,0,0,0, 0, 0, 0,\
 	0x221a,0,  0, 1, 1, 0, 1, 0, 0, 0, 1,\
 	0x221d,0,  0, 1, 1, 0, 0, 0, 1, 1, 1,\
 	0x221e,0,  1, 1, 1, 0, 0, 0, 1, 1, 1,\
@@ -271,9 +290,44 @@ tt = [\
 	0\
 ]
 
+w1252_p = [\
+	0x20ac,  0x201a,0x0192,0x201e,0x2026,0x2020,0x2021,0x02c6,0x2030,0x0160,0x2039,0x0152,  0x017d,  \
+	  0x2018,0x2019,0x201c,0x201d,0x2022,0x2013,0x2014,0x02dc,0x2122,0x0161,0x203a,0x0153,  0x017e,0x0178\
+]
+macroman_p = [\
+	0x2020,0x2022,0x2122,0x2260, 0x221e,0x2264,0x2265,0x2202,0x2211,0x220f,0x03c0,0x222b,0x03a9,\
+	0x221a,0x0192,0x2248,0x2206,0x2026,0x0152,0x0153,\
+	0x2013,0x2014,0x201c,0x201d,0x2018,0x2019,0x25ca,0x0178,0x2044,0x20ac,0x2039,0x203a,0xfb01,0xfb02,\
+	0x2021,0x201a,0x201e,0x2030, 0xf8ff,0x0131,0x02c6,0x02dc,0x02d8,0x02d9,0x02da,0x02dd,0x02db,0x02c7\
+]
+macroman_n = [\
+	0xa4,0xa6,0xad,0xb2,0xb3,0xb9,0xbc,0xbd,0xbe,0xd0,0xd7,0xdd,0xde,0xf0,0xfd,0xfe\
+]
+
 Print("codepoints: ",SizeOf(tt)/11)
 
-if ($argc > 1 && $1=="-uniqueglyphcount")
+if ($argc > 1 && $1=="-check-defs")
+	m=Array(SizeOf(tt)/11)
+	n=0
+	i=0
+	while (i<SizeOf(tt)/11)
+		j=0
+		while (j<n && j!=-1)
+			if (m[j]==tt[i*11+0])
+				Print("multiple definition of 0x",m[j])
+				j=-1
+			else
+				j=j+1
+			endif
+		endloop
+		if (j==n)
+			m[j]=tt[i*11+0]
+			n=j+1
+		endif
+		i+=1
+	endloop
+	Quit(0)
+elseif ($argc > 1 && $1=="-uniqueglyphcount")
 	m=Array(512)
 	i=0
 	while (i<512)
@@ -301,11 +355,65 @@ if ($argc > 1 && $1=="-uniqueglyphcount")
 	endloop
 	Print("uniqueglyphs: ",c)
 	Quit(0)
+elseif ($argc > 1 && $1=="-coverage-w1252")
+	c=0
+	i=0
+	while (i<SizeOf(tt)/11)
+		if (tt[i*11+0]>=0xa0 && tt[i*11+0]<=0xff)
+			c+=1
+		else
+			j=0
+			while (j<SizeOf(w1252_p))
+				if (w1252_p[j]==tt[i*11+0])
+					c+=1
+					j=SizeOf(w1252_p)
+				else
+					j+=1
+				endif
+			endloop
+		endif
+		i+=1
+	endloop
+	Print("Windows-1252 (0x80-0xff): ",c,"/123")
+	Quit(0)
+elseif ($argc > 1 && $1=="-coverage-macroman")
+	c=0
+	i=0
+	while (i<SizeOf(tt)/11)
+		if (tt[i*11+0]>=0xa0 && tt[i*11+0]<=0xff)
+			#Print(tt[i*11+0])
+			c+=1
+			j=0
+			while (j<SizeOf(macroman_n))
+				if (macroman_n[j]==tt[i*11+0])
+					#Print("-(",j,")",macroman_n[j])
+					c-=1
+					j=SizeOf(macroman_n)
+				else
+					j+=1
+				endif
+			endloop
+		else
+			j=0
+			while (j<SizeOf(macroman_p))
+				if (macroman_p[j]==tt[i*11+0])
+					c+=1
+					#Print("(",j,")",macroman_p[j])
+					j=SizeOf(macroman_p)
+				else
+					j+=1
+				endif
+			endloop
+		endif
+		i+=1
+	endloop
+	Print("MacOSRoman (0x80-0xff): ",c,"/128")
+	Quit(0)
 endif
 
 Open("NineSegmentDef.sfd")
 
-SetFontNames("NineSegment","NineSegment","NineSegment","Medium","Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3","004.000")
+SetFontNames("NineSegment","NineSegment","NineSegment","Medium","Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3","005.000")
 
 #Print(tt[0*11+0])
 

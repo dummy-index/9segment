@@ -5,7 +5,7 @@ FamilyName: NineSegment
 Weight: Medium
 Copyright: Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
 UComments: "2013-11-24: Created with FontForge (http://fontforge.org)" 
-Version: 004.000
+Version: 005.001
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1385260552
-ModificationTime: 1387379751
+ModificationTime: 1388414264
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -40,7 +40,7 @@ HheadAOffset: 0
 HheadDescent: 410
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-OS2CodePages: 0000000b.d4010000
+OS2CodePages: a000000b.d4010000
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp

@@ -113,6 +113,7 @@ tt = [\
 	0x007e,0,  0, 1, 0, 0, 0, 1, 0, 1, 0,\
 	\
 	0x0374,0,  0, 0, 0, 0, 0, 1, 0, 0, 0,\
+	0x0375,0,  0, 0, 1, 0, 0, 0, 0, 0, 0,\
 	0x0391,0x0041,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0392,0x0042,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0393,0,  1, 0, 0, 0, 1, 1, 0, 0, 0,\
@@ -223,6 +224,7 @@ tt = [\
 	0x017f,0,  1, 0, 0, 0, 1, 1, 0, 0, 0,\
 	0x0186,0,  1, 1, 1, 1, 0, 0, 0, 0, 0,\
 	0x018f,0,  1, 1, 1, 1, 1, 0, 1, 0, 0,\
+	0x0192,0,  1, 0, 1, 1, 0, 0, 1, 1, 0,\
 	0x0237,0,  0, 0, 1, 1, 0, 0, 0, 0, 0,\
 	0x0250,0,  1, 1, 0, 0, 0, 1, 1, 0, 1,\
 	0x0254,0,  0, 0, 1, 1, 0, 0, 1, 0, 0,\
@@ -233,8 +235,6 @@ tt = [\
 	0x0278,0x03c6,  0,0,0,0,0,0, 0, 0, 0,\
 	0x0283,0,  1, 0, 1, 1, 0, 1, 0, 0, 0,\
 	0x0292,0,  1, 1, 0, 1, 0, 0, 1, 0, 1,\
-	0x02da,0x00b0,  0,0,0,0,0,0, 0, 0, 0,\
-	0x02dc,0x007e,  0,0,0,0,0,0, 0, 0, 0,\
 	\
 	0x2032,0,  0, 0, 0, 0, 0, 1, 0, 0, 0,\
 	0x2033,0,  0, 1, 0, 0, 0, 1, 0, 0, 0,\
@@ -441,7 +441,7 @@ endif
 
 Open("NineSegmentDef.sfd")
 
-SetFontNames("NineSegment","NineSegment","NineSegment","Medium","Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3","005.001")
+SetFontNames("NineSegment","NineSegment","NineSegment","Medium","Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3","006.000")
 
 #Print(tt[0*11+0])
 
@@ -475,6 +475,9 @@ while (i<SizeOf(tt)/11)
 	i+=1
 #endif
 endloop
+
+Select(0xc0,0xff)
+BuildAccented()
 
 Save("NineSegment.sfd")
 Generate("NineSegment.ttf")

@@ -5,7 +5,7 @@ FamilyName: NineSegment
 Weight: Medium
 Copyright: Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
 UComments: "2013-11-24: Created with FontForge (http://fontforge.org)" 
-Version: 005.001
+Version: 006.000
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1385260552
-ModificationTime: 1388414264
+ModificationTime: 1388568471
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -41,6 +41,8 @@ HheadDescent: 410
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
 OS2CodePages: a000000b.d4010000
+Lookup: 260 0 0 "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1"  {"'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 0"  {"'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 0-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -49,10 +51,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 10
+WinInfo: 160 16 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 15
+AnchorClass2: "Bottom"  "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "Top"  "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 0-1" 
+BeginChars: 65536 25
 
 StartChar: comma
 Encoding: 44 44 0
@@ -147,6 +150,8 @@ Encoding: 32 32 4
 Width: 1229
 VWidth: 2000
 Flags: HW
+AnchorPoint: "Bottom" 576 0 basechar 0
+AnchorPoint: "Top" 576 1411 basechar 0
 LayerCount: 2
 EndChar
 
@@ -411,6 +416,225 @@ SplineSet
  851 244 l 1
  844 131 l 1
  768 142 l 1
+EndSplineSet
+EndChar
+
+StartChar: circumflex
+Encoding: 710 710 15
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Back
+SplineSet
+300 1411 m 1
+ 924 1411 l 1
+ 916 1280 l 1
+ 370 1280 l 1
+ 293 1291 l 1
+ 300 1411 l 1
+EndSplineSet
+Fore
+SplineSet
+384 1511 m 1
+ 576 1636 l 5
+ 768 1511 l 1
+ 768 1411 l 1
+ 576 1536 l 5
+ 384 1411 l 1
+ 384 1511 l 1
+EndSplineSet
+EndChar
+
+StartChar: caron
+Encoding: 711 711 16
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+384 1636 m 5
+ 576 1511 l 1
+ 768 1636 l 5
+ 768 1536 l 5
+ 576 1411 l 1
+ 384 1536 l 5
+ 384 1636 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni02C8
+Encoding: 712 712 17
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+512 1636 m 5
+ 640 1636 l 5
+ 640 1436 l 1
+ 512 1436 l 1
+ 512 1636 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni02C9
+Encoding: 713 713 18
+Width: 1229
+VWidth: 2000
+Flags: HW
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+384 1636 m 5
+ 768 1636 l 5
+ 768 1536 l 5
+ 384 1536 l 5
+ 384 1636 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni02CA
+Encoding: 714 714 19
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+512 1511 m 1
+ 768 1636 l 1
+ 768 1536 l 1
+ 512 1411 l 1
+ 512 1511 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni02CB
+Encoding: 715 715 20
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+384 1636 m 5
+ 640 1511 l 1
+ 640 1411 l 1
+ 384 1536 l 5
+ 384 1636 l 5
+EndSplineSet
+EndChar
+
+StartChar: dieresis
+Encoding: 168 168 21
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1536 100<384 768>
+VStem: 384 384<1536 1636>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+640 1636 m 1
+ 768 1636 l 1
+ 768 1536 l 1
+ 640 1536 l 1
+ 640 1636 l 1
+384 1636 m 1
+ 512 1636 l 1
+ 512 1536 l 1
+ 384 1536 l 1
+ 384 1636 l 1
+EndSplineSet
+EndChar
+
+StartChar: ring
+Encoding: 730 730 22
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1376 260<450.239 701.761> 1446 120<532 620>
+VStem: 416 320<1418 1594> 496 160<1462 1550>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+496 1506 m 0x50
+ 496 1462 532 1446 576 1446 c 0
+ 620 1446 656 1462 656 1506 c 0
+ 656 1550 620 1566 576 1566 c 0
+ 532 1566 496 1550 496 1506 c 0x50
+416 1506 m 0xa0
+ 416 1594 488 1636 576 1636 c 0
+ 664 1636 736 1594 736 1506 c 0
+ 736 1418 664 1376 576 1376 c 0
+ 488 1376 416 1418 416 1506 c 0xa0
+EndSplineSet
+EndChar
+
+StartChar: tilde
+Encoding: 732 732 23
+Width: 1229
+VWidth: 2000
+Flags: W
+HStem: 1436 200
+VStem: 320 512
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+320 1536 m 1
+ 480 1636 l 0
+ 672 1536 l 0
+ 832 1636 l 1
+ 832 1536 l 1
+ 672 1436 l 0
+ 480 1536 l 0
+ 320 1436 l 1
+ 320 1536 l 1
+EndSplineSet
+EndChar
+
+StartChar: cedilla
+Encoding: 184 184 24
+Width: 1229
+VWidth: 2000
+Flags: HW
+AnchorPoint: "Bottom" 576 0 mark 0
+LayerCount: 2
+Fore
+SplineSet
+512 0 m 1
+ 640 0 l 1
+ 640 -96 l 1
+ 768 -128 l 1
+ 768 -318 l 1
+ 640 -384 l 1
+ 512 -384 l 1
+ 512 -320 l 1
+ 672 -224 l 1
+ 512 -128 l 1
+ 512 0 l 1
 EndSplineSet
 EndChar
 EndChars

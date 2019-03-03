@@ -612,7 +612,7 @@ elseif ($argc > 1 && $1=="-coverage-macroman")
 	Quit(0)
 endif
 
-Open("NineSegmentDef.sfd")
+Open("NiNeSegmentDef.sfd")
 
 SetFontNames("NiNeSegment","NiNeSegment","NiNeSegment","Medium","Copyright (c) 2019, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3","007.001")
 
@@ -657,6 +657,6 @@ BuildAccented()
 Select(0x0386,0x045f)
 BuildAccented()
 
-Save("NineSegment.sfd")
-Generate("NineSegment.ttf")
+Save("NiNeSegment.sfd")
+Generate("NiNeSegment.ttf")
 Quit(0)

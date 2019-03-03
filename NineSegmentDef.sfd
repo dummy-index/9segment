@@ -1,11 +1,11 @@
 SplineFontDB: 3.0
-FontName: NineSegment
-FullName: NineSegment
-FamilyName: NineSegment
+FontName: NiNeSegment
+FullName: NiNeSegment
+FamilyName: NiNeSegment
 Weight: Medium
-Copyright: Copyright (c) 2013, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
+Copyright: Copyright (c) 2019, Kiichiro Yamanobe,U-Tokkuri-PC\\Kiichiro,S-1-5-21-3
 UComments: "2013-11-24: Created with FontForge (http://fontforge.org)" 
-Version: 006.000
+Version: 007.000
 ItalicAngle: 0
 UnderlinePosition: -200
 UnderlineWidth: 100
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1385260552
-ModificationTime: 1388568471
+ModificationTime: 1551535225
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,11 +51,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 160 16 10
+WinInfo: 896 16 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Bottom"  "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 1-1" "Top"  "'mark' +MN4w/DCvMG5PTX9uYwdbmgAA lookup 0-1" 
-BeginChars: 65536 25
+BeginChars: 65536 32
 
 StartChar: comma
 Encoding: 44 44 0
@@ -87,11 +87,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-500 100 m 0
- 500 155 545 200 600 200 c 0
- 655 200 700 155 700 100 c 0
- 700 45 655 0 600 0 c 0
- 545 0 500 45 500 100 c 0
+500 100 m 4
+ 500 155 545 200 600 200 c 4
+ 655 200 700 155 700 100 c 4
+ 700 45 655 0 600 0 c 4
+ 545 0 500 45 500 100 c 4
 EndSplineSet
 Validated: 1
 EndChar
@@ -211,6 +211,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
+1024 100 m 0
+ 1024 155 1069 200 1124 200 c 0
+ 1179 200 1224 155 1224 100 c 0
+ 1224 45 1179 0 1124 0 c 0
+ 1069 0 1024 45 1024 100 c 0
 808 782 m 1
  285 1167 l 1
  292 1280 l 1
@@ -460,13 +465,13 @@ AnchorPoint: "Top" 576 1411 mark 0
 LayerCount: 2
 Fore
 SplineSet
-384 1636 m 5
+384 1636 m 1
  576 1511 l 1
- 768 1636 l 5
- 768 1536 l 5
+ 768 1636 l 1
+ 768 1536 l 1
  576 1411 l 1
- 384 1536 l 5
- 384 1636 l 5
+ 384 1536 l 1
+ 384 1636 l 1
 EndSplineSet
 EndChar
 
@@ -635,6 +640,140 @@ SplineSet
  672 -224 l 1
  512 -128 l 1
  512 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniEFEA
+Encoding: 61418 61418 25
+Width: 1229
+VWidth: 2000
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1024 100 m 0
+ 1024 155 1069 200 1124 200 c 0
+ 1179 200 1224 155 1224 100 c 0
+ 1224 45 1179 0 1124 0 c 0
+ 1069 0 1024 45 1024 100 c 0
+EndSplineSet
+EndChar
+
+StartChar: breve
+Encoding: 728 728 26
+Width: 1229
+VWidth: 2000
+Flags: MW
+HStem: 1411 100<384 768>
+VStem: 288 576<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+288 1636 m 1
+ 288 1636 442.5 1511 576 1511 c 27
+ 709.5 1511 864 1636 864 1636 c 1
+ 864 1536 l 1
+ 864 1536 709.5 1411 576 1411 c 27
+ 442.5 1411 288 1536 288 1536 c 1
+ 288 1636 l 1
+EndSplineSet
+EndChar
+
+StartChar: hungarumlaut
+Encoding: 733 733 27
+Width: 1229
+VWidth: 2000
+Flags: HW
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+288 1511 m 1
+ 544 1636 l 1
+ 544 1536 l 1
+ 288 1411 l 1
+ 288 1511 l 1
+608 1511 m 1
+ 864 1636 l 1
+ 864 1536 l 1
+ 608 1411 l 1
+ 608 1511 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni02BB
+Encoding: 699 699 28
+Width: 1229
+VWidth: 2000
+Flags: W
+HStem: 1411 100<384 768>
+VStem: 384 384<1411 1511>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+640 1636 m 1
+ 704 1636 l 1
+ 640 1336 l 1
+ 512 1336 l 1
+ 640 1636 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni02BC
+Encoding: 700 700 29
+Width: 1229
+VWidth: 2000
+Flags: MW
+AnchorPoint: "Bottom" 1225 1644 mark 0
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+1152 1636 m 1
+ 1280 1636 l 1
+ 1152 1336 l 1
+ 1088 1336 l 1
+ 1152 1636 l 1
+EndSplineSet
+EndChar
+
+StartChar: dotaccent
+Encoding: 729 729 30
+Width: 1229
+VWidth: 2000
+Flags: W
+HStem: 1536 100<512 640>
+VStem: 512 128<1536 1636>
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+512 1636 m 1
+ 640 1636 l 1
+ 640 1536 l 1
+ 512 1536 l 1
+ 512 1636 l 1
+EndSplineSet
+EndChar
+
+StartChar: tonos
+Encoding: 900 900 31
+Width: 1229
+VWidth: 2000
+Flags: HMWO
+AnchorPoint: "Top" 576 1411 mark 0
+LayerCount: 2
+Fore
+SplineSet
+0 1508 m 1
+ 128 1508 l 1
+ 128 1308 l 1
+ 0 1308 l 1
+ 0 1508 l 1
 EndSplineSet
 EndChar
 EndChars
